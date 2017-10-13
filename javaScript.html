@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/public.css">
+	<script src="js/public.js"></script>
+</head>
+<body>
+	<div class="content"></div>
+	<div class="pager"></div>
+	<div class="control">
+		<form action="" class="updatewindow" method="">
+			<input type="text" name="id" class="id" style="display:none;">
+			<h1>详情<span>如果要修改内容请登录</span></h1>
+			<label for=""><span>类型</span><input type="text" name="style" class="style"></label>
+			<label for=""><span>标题</span><input type="text" name="title" class="title"></label>
+			<label for=""><span>内容</span><textarea name="content" id="" cols="30" rows="10" class="text"></textarea></label>
+			<div class="wap">
+				<input type="button" value="登陆" class="login">
+				<input type="button" value="关闭" class="close">
+			</div>
+		</form>
+	</div>
+</body>
+	<script>
+		window.onload = function(){
+			sendAjax({
+				method:'get',
+				url:'public.php',
+				data:'value=javaScript',
+				success:function(data){
+					var data = JSON.parse(data);
+					fenye(data.length,7,data);
+				}
+			})
+		}
+	</script>
+</html>

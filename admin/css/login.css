@@ -1,0 +1,18 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;font-family: "微软雅黑";}
+body{position: absolute;width: 100%;height: 100%;background: rgb(239,239,239);}
+header{width: 100%;height: 12%;background: rgba(42,44,46,1);position: relative;}
+.title{position: absolute;width: 20%;height: 40%;color: white;top: 0;bottom: 0;left: 0;right: 0; margin: auto;}
+.loginbox{height: 50%;width: 20%; position: absolute;top: 50%;bottom: 50%;left: 65%;margin: auto; background: rgba(204,204,204,1); opacity: .7;border-radius: 20px;}
+.inputbox{position: absolute; height: 9%;width: 80%;top: 20%;left: 0;right: 0;margin: auto; border-radius: 5px;border:2px solid #999;outline: 0;padding-left: 20px;}
+.inputbox:nth-child(2){margin-top: 25%;}
+.inputbox:focus{border-radius: 5px;border:2px solid red;}
+.wap{position: absolute;width:60%;height: 30px;right: 0;left: 0;top: 60%;margin:auto;}
+.wap input:nth-child(1){position: absolute;width: 30%;height: 100%;left: 0;}
+.wap input:nth-child(2){position: absolute;width: 30%;height: 100%;right: 0;}
+.registerbox{z-index: 2; position: absolute;top: 0;right: 0;bottom: 0;left: 0;margin: auto;width: 500px;height: 300px;background: white;border-radius: 20px; border: 1px solid #eee; box-shadow: 2px 2px 5px #333333; opacity: 0;transform: scale(0.00,0.00);transition: 1s;}
+.registerform{position: absolute;top: 0;right: 0;bottom: 0;left: 0;margin: auto;width: 400px;height: 200px;}
+.registerform>input{position: absolute;left: 50%;margin-left: -60px; margin-top: 10px; width: 120px;}
+table input{height: 22px;}
+.registerform>input:nth-of-type(2){margin-top: 45px;}
+.img{width:400px;height: 400px;position: absolute;top:0;bottom: 0;left: 15%;margin: auto;background: url(../images/node.png);background-size: 100%;}
+.rightcorner{position: absolute;height: 160px;width: 160px;right: 0;bottom: 0;background: url(../images/login_bg.png);background-size: 100%;}

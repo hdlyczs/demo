@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登陆页面</title>
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<header>
+		<div class="title"><h2>学习笔记后台登陆</h2></div>
+	</header>
+	<div class="loginbox">
+			<form method="post" class="loginform" action="confirmation.php">
+				<input type="text" name="username" class="inputbox" placeholder="请输入用户名">
+				<input type="password" name="password" class="inputbox" placeholder="请输入用密码">
+				<div class="wap">
+					<input type="submit" value="登录">
+					<input type="button" value="注册" id="register">
+				</div>
+			</form>
+	</div>
+	<div class="registerbox">
+			<form method="post" class="registerform" action="register.php">
+				<table style="margin-left: 40px;border-spacing:15px;">
+					<tr>
+						<td><p>请新建用户名</p></td>
+						<td><input type="text" name="registername"></td>
+					</tr>
+					<tr>
+						<td><p>请输入密码</p></td>
+						<td><input type="password" class="password"></td>
+					</tr>
+					<tr>
+						<td><p>请确认密码</p></td>
+						<td><input type="password" class="repassword" name="registerpassword"></td>
+					</tr>
+				</table>
+				<input type="submit" value="注册">
+				<input type="button" value="退出" class="close">
+			</form>
+		</div>
+	<div class="img"></div>
+	<div class="rightcorner"></div>
+<script src="js/login.js"></script>
+</body>
+</html>

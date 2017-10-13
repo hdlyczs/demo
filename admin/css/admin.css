@@ -1,0 +1,22 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;font-family: "微软雅黑";}
+header{width: 100%;height: 90px;}
+.logo{width: 100%;height: 60px;background: rgb(42,44,46);}
+.logo h3{line-height: 60px;color: white;position: absolute;right: 20px;}
+.app_list{width: 100%;height: 30px;background:rgb(225,224,224);position: relative;}
+.app_list ul{position: absolute; width: 420px;height: 100%;right: 0;}
+.app_list ul li{float: left;height: 100%;width: 60px;line-height: 30px;color: #383838;font-size: 14px;font-family: SimHei;}
+.app_list ul li:first-child{width: 120px;text-align: center;}
+.app_list ul li a{color: #383838;font-size: 14px;font-family: SimHei;}
+.app_list .icon{background-size: 100%;display: inline-block;height: 10px;width: 10px;margin:10px 2px;float: left;}
+.icon_index{background-image: url(../images/index.png);}
+.icon_next{background-image: url(../images/next.png);}
+.icon_pre{background-image: url(../images/pre.png);}
+.icon_refresh{background-image: url(../images/refresh.png);}
+.icon_exit{background-image: url(../images/exit.png);}
+nav{width: 200px;background: rgb(80,82,84);float: left;}
+nav ul{margin-top: 50px;color: white;text-align: center;}
+nav ul li{padding: 10px 0;cursor: pointer;}
+nav ul li:hover{background: #333333;}
+nav ul li>a{color: white;}
+.content{float: right;position: relative;}
+iframe{width: 100%;height: 100%;position: absolute;}

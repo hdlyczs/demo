@@ -1,0 +1,36 @@
+*{padding: 0;margin: 0;}
+header{width: 100%;height: 100px; position: relative;}
+.searchbox{position: absolute;width: 25%;height: 35px;left: 0; right: 0;top: 0;bottom: 0;margin:auto;font-size: 0px;}
+.searchbox form{height: 100%;width: 100%; display: inline-block;border: 2px solid red;}
+.searchselect{width: 20%;height: 100%;border: none;outline:none;float: left;}
+.searchinput{width: 60%;height: 100%;border: none; outline:none;float: left;}
+.searchbutton{width: 20%;height: 100%;border: none;outline:none;cursor: pointer;float: left;}
+.content{width: 100%;}
+table{width: 70%;height: 100px;margin: 0 auto;border: 2px solid #cfcfcf;margin-top: 20px;border-collapse:collapse;text-align: center;}
+table tr:first-child{background: #E9EAEC;height: 40%;}
+table tr:last-child td{border: 1px solid #E4E4E4;font-size: 14px;}
+table tr td:nth-child(1){width: 5%;}
+table tr td:nth-child(2){width: 8%;}
+table tr td:nth-child(3){width: 20%;}
+table tr td:nth-child(4){width: 43%;}
+table tr td:nth-child(5){width: 12%;}
+table tr td:nth-child(6){width: 5%;}
+table tr td:nth-child(7){width: 7%;}
+.delete{margin-left: 5px;}
+.pager{/*padding:30px 0;*/display: flex;justify-content:center;align-items:center;width: 100%;height: 80px;}
+.pager>span:last-child{margin-left: 30px;}
+.myspan{width: 30px;height: 30px;cursor: pointer;background:rgb(225,224,224);border-radius: 50%;line-height: 30px;text-align: center;margin-left: 10px;font-size: 12px;}
+.myspan:hover{background:#C0C0C0;}
+.control{display: none;position: fixed; max-width: 500px;max-height: 400px; top: 0;right: 0;bottom: 0;left: 0;margin:auto;}
+.updatewindow{width: 100%;height: 100%; background: #FFF;padding: 20px 30px 20px 30px;font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;color: #888;text-shadow: 1px 1px 1px #FFF;border:1px solid #DDD;border-radius: 5px;}
+.updatewindow h1 {font: 25px "Helvetica Neue", Helvetica, Arial, sans-serif;padding: 0px 0px 10px 40px;display: block;border-bottom: 1px solid #DADADA;margin: -10px -30px 30px -30px;color: #888;}
+.updatewindow h1>span {display: block;font-size: 11px;}
+.updatewindow label {display: block;margin: 0px 0px 5px -50px;}
+.updatewindow label>span {float: left;width: 20%;text-align: right;padding-right: 10px;margin-top: 10px;color: #333;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-weight: bold;}
+.updatewindow input[type="text"],textarea{border: 1px solid #CCC;color: #888;height: 20px;line-height:15px;margin-bottom: 16px;margin-right: 6px;margin-top: 2px;outline: 0 none;padding: 5px 0px 5px 5px;width: 70%;border-radius: 4px;box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);}
+.updatewindow textarea{height:100px;padding: 5px 0px 0px 5px;width: 70%;}
+.updatewindow .wap{width:50%;height: 30px;position: relative;margin: 0 auto;margin-top: 20px;}
+.wap>input{background: #FFF;border: 1px solid #CCC;color: #333;border-radius: 4px;cursor: pointer;}
+.wap>input:hover{color: #333;background-color: #EBEBEB;border-color: #ADADAD;}
+.wap input:nth-child(1){position: absolute;width: 25%;height: 100%;left: 0;}
+.wap input:nth-child(2){position: absolute;width: 25%;height: 100%;right: 0;}

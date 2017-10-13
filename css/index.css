@@ -1,0 +1,39 @@
+*{padding: 0;margin: 0;list-style: none;text-decoration: none;font-family: "微软雅黑";}
+body{width: 100%;height: 100%;position: absolute;}
+.top{width: 100%;height: 30px;background:rgba(225,224,224,1);}
+.top .wapper{position: absolute;right: 0;z-index: 3;}
+.top a{float: right; display: inline-block;color: #383838;font-size: 13px;font-family: SimHei;line-height: 30px;margin-right: 40px;}
+.icon{background-size: 100%;display: inline-block;height: 20px;width: 20px;margin:5px 2px;float: left;}
+.icon_login{background-image: url(../images/icon_login.png);}
+.icon_phone{background-image: url(../images/icon_phone.png);}
+header{width: 100%;height: 100px;background: rgba(42,44,46,1);position:relative;}
+header .next{position: absolute;height: 100px;width: 20px;left: 350px;line-height: 100px;color:white;font-size: 30px;font-family: SimHei;cursor: pointer;z-index: 3;}
+header .weather{position: absolute; height: 100px;width: 150px;}
+.weather ul{width: 100%;height: 100%;color: white;font-size: 14px;}
+.weather ul li{width: 100%;height: 33.33%;line-height: 33px;}
+.weather:nth-child(1){left: 200px;}
+.weather:nth-child(3){left: 370px;display: none;}
+.weather:nth-child(4){left: 520px;display: none;}
+header .searchbox{position: absolute;width: 25%;height: 35%;right: 10%;top: 0;bottom: 0;margin:auto;z-index: 3;font-size: 0px;}
+.searchselect{width: 20%;height: 100%;border: none;outline:none;}
+.searchinput{width: 60%;height: 100%;border: none;outline:none;}
+.searchbutton{width: 20%;height: 100%;border: none;outline:none;cursor: pointer;}
+nav{width: 200px;height: 100%;background: rgba(80,82,84,1);position: absolute;margin-top: -130px;z-index: 1;}
+nav .navtop{width: 200px;height: 30px;background:rgba(225,224,224,1);position: absolute;}
+nav .navheader{width: 200px;height: 100px;background: rgba(42,44,46,1);position: absolute;margin-top: 30px;text-align: center;line-height: 100px;color: white;}
+.content{width: 100%;height: 100%; margin-top: -130px;z-index:0;position: absolute;}
+.title{background: rgba(204,204,204,1);width: 99%;height: 40px; margin-top: 130px;position: absolute;z-index: -1;line-height: 40px;}
+nav>.title>span{padding: 0 20px;}
+.content>.title{z-index: -1;width: 100%}
+.content>.title>span{margin-left: 200px;padding: 0 20px;}
+nav ul{margin-top: 200px;color: white;text-align: center;}
+nav ul li{padding: 10px 0;z-index: 9;cursor: pointer;}
+nav ul li>a{color: white;}
+nav ul li:hover{background: #333333;}
+nav ul li span{cursor: pointer; display: inline-block; width: 0;height: 0;border-top: 5px solid transparent;border-bottom:5px solid transparent;border-left: 8px solid white;}
+nav dl{font-size: 14px;display: none;}
+nav dd:hover{background: #333333;}
+nav dd{padding:5px 0;}
+dd a{color: white;}
+iframe{width:100%;height: 80%;z-index: 0;margin-top: 170px;position: absolute;overflow: hidden;}
+/*..{margin-left: 200px; margin-top: 170px;} iframe统一CSS*/ 
